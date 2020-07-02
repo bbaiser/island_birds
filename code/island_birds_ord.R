@@ -1,6 +1,3 @@
-path<-"C:/Users/Ben Baiser/Dropbox/Multivariate/2017/labs/lab 4"
-
-setwd(path)
 
 
 
@@ -12,9 +9,9 @@ library(ca)
 
 
 #datasets
-birds<-read.csv("Current_Hawaiian_Birds.csv", row=1, header=T)
-birds2<-read.csv("combined_birds.csv", row=1, header=T)
-tree<-read.csv("tree.csv", row=1,header=T)
+birds<-read.csv("data/Current_Hawaiian_Birds.csv", row=1, header=T)
+birds2<-read.csv("data/combined_birds.csv", row=1, header=T)
+tree<-read.csv("data/tree.csv", row=1,header=T)
 
 
 
