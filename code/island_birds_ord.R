@@ -37,7 +37,7 @@ PCoA_Table
 #Scree plot:
 plot(eigenvalues)
 lines(lowess(eigenvalues))
-
+#Scree plot shows 2 axes to be kept
 
 
 # plot the first two PCoA axes:
